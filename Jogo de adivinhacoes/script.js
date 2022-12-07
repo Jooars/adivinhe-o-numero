@@ -22,16 +22,16 @@ else if (rand % 2 == 1) {
    "Dica: n é um número pertencente ao conjunto dos números inteiros."]
 }
 // NÃO ESQUECE DE TIRAR ISSO AQUI!
-console.log(Par)
+/*console.log(Par)
 console.log(rand)
-console.log(numer)
+console.log(numer)*/
 
 function enviar() {
    
    var numer = document.getElementById("resp").value
 
    if (numer == rand) {
-      document.getElementById("out").innerHTML = "Você acertou!! <br> Sua pontuação é: " + score + " <br> Atualize a página para tentar de novo!"
+      document.getElementById("out").innerHTML = "Você acertou!! <br> Sua pontuação é: " + score
       
    }
    
